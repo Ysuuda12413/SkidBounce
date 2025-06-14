@@ -1,12 +1,16 @@
-/run/
-/out/
-/build/
-/.settings/
-/bin/
-/.gradle/
-/.idea/
-/skid/
+# IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
+
+# Gradle
+.gradle/
+
+# Build output
+/out/
+/build/
+/bin/
+/skid/
+/run/
+/.settings/
