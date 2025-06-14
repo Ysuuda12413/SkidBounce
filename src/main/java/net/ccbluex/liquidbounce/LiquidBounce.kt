@@ -54,9 +54,9 @@ object LiquidBounce {
      * This has all of the basic information.
      */
     const val CLIENT_NAME = "SkidBounce"
-    const val CLIENT_AUTHOR = "ManInMyVan"
+    const val CLIENT_AUTHOR = "DuyunDz Skid"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
-    const val CLIENT_WEBSITE = "skidbounce.github.io"
+    const val CLIENT_WEBSITE = "Nohello.en"
 
     val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "unknown"
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
@@ -103,7 +103,6 @@ object LiquidBounce {
             runCatching {
                 async {
                     loadLanguages()
-
                     registerListener(RotationUtils)
                     registerListener(ClientFixes)
                     registerListener(BungeeCordSpoof)
