@@ -107,8 +107,13 @@ object Fly : Module("Fly", Category.MOVEMENT) {
     val stopOnLanding by BooleanValue("StopOnLanding", true) { mode == "BlocksMC" || mode == "BlocksMC2" }
     val stopOnNoMove by BooleanValue("StopOnNoMove", false) { mode == "BlocksMC" || mode == "BlocksMC2" }
     val debugFly by BooleanValue("Debug", false) { mode == "BlocksMC" || mode == "BlocksMC2" }
-
-    private val mark by BooleanValue("Mark", true, subjective = true)
+    // Intave
+    val velocityMultiplier by IntValue("VelocityMultiplier", 8, 1..32) {mode == "IntaveFlagFly"}
+    val boostTimes2 by IntValue("BoostTimes", 2, 1..8) {mode == "IntaveFlagFly"}
+    val strafeSpeed by FloatValue("StrafeSpeed", 0.4f, 0.1f..2.0f) {mode == "IntaveFlagFly"}
+    val multiTickBoost by BooleanValue("MultiTickBoost", false) {mode == "IntaveFlagFly"}
+    val boostDuration by IntValue("BoostDurationTicks", 1, 1..10) {mode == "IntaveFlagFly"}
+    private val mark by BooleanValue("Mark", true, subjective = true) {mode == "IntaveFlagFly"}
 
     var jumpY = 0.0
 
