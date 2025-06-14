@@ -56,7 +56,7 @@ object LiquidBounce {
     const val CLIENT_NAME = "SkidBounce"
     const val CLIENT_AUTHOR = "DuyunDz Skid"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
-    const val CLIENT_WEBSITE = "Nohello.en"
+    const val CLIENT_WEBSITE = "https://nohello.net/en/"
 
     val clientVersionText = gitInfo["git.build.version"]?.toString() ?: "unknown"
     val clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"

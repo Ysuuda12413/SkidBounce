@@ -1,0 +1,287 @@
+{
+  "locale": "vi_VN",
+  "contributors": [
+    "DuyunDz"
+  ],
+  "translations": {
+    "menu.altManager": "Quản lý tài khoản phụ",
+    "menu.mods": "Các module",
+    "menu.serverStatus": "Trạng thái máy chủ",
+    "menu.configuration": "Cấu hình",
+    "notification.moduleEnabled": "Đã bật %s",
+    "notification.moduleDisabled": "Đã tắt %s",
+    "module.autoPlay.description": "Tự động vào trận tiếp theo",
+    "module.aimBot.description": "Tự động xoay hướng tới các thực thể quanh bạn.",
+    "module.autoArmor.description": "Tự động mặc giáp tốt nhất trong túi đồ.",
+    "module.noInvClose.description": "Ngăn máy chủ đóng túi đồ của bạn.",
+    "module.autoBow.description": "Tự động bắn cung khi đã kéo căng hết cỡ.",
+    "module.autoClicker.description": "Tự động click chuột khi giữ chuột.",
+    "module.autoLeave.description": "Tự động rời máy chủ khi máu thấp.",
+    "module.autoPot.description": "Tự động ném bình hồi máu.",
+    "module.autoRod.description": "Tự động sử dụng cần câu khi PvP.",
+    "module.autoSoup.description": "Tự động ăn súp khi máu của bạn thấp.",
+    "module.staffDetector.description": "Phát hiện và thông báo khi staff vào server",
+    "module.autoWeapon.description": "Tự động chọn vũ khí tốt nhất trên hotbar.",
+    "module.backtrack.description": "Cho phép bạn đánh vào vị trí cũ đã lưu của đối thủ.",
+    "module.bowAimBot.description": "Tự động ngắm cung vào người chơi.",
+    "module.criticals.description": "Tự động đánh chí mạng.",
+    "module.fastBow.description": "Biến cung thành súng máy.",
+    "module.hitBox.description": "Tăng kích thước hitbox của mục tiêu.",
+    "module.ignite.description": "Tự động đốt cháy mục tiêu quanh bạn.",
+    "module.flagCheck.description": "Phát hiện khi bạn bị anticheat đánh dấu.",
+    "module.killAura.description": "Tự động đánh kẻ địch xung quanh.",
+    "module.friends.description": "Cho phép bạn tấn công bạn bè.",
+    "module.superKnockback.description": "Tăng lực đẩy khi đánh thực thể khác.",
+    "module.teleportHit.description": "Cho phép đánh các thực thể từ xa.",
+    "module.noPush.description": "Ngăn chặn bị đẩy bởi block.",
+    "module.tNTBlock.description": "Tự động chắn kiếm khi TNT quanh bạn nổ.",
+    "module.tNTTimer.description": "Hiển thị thời gian TNT gần bạn sắp nổ.",
+    "module.triggerBot.description": "Tự động đánh thực thể bạn đang nhìn.",
+
+    "module.velocity.description": "Cho phép điều chỉnh lực giật lùi nhận vào.",
+
+    "module.abortBreaking.description": "Cho phép hủy đào block mà không mất tiến trình đào.",
+
+    "module.ambience.description": "Thay đổi thời gian và thời tiết ở client.",
+
+    "module.antiHunger.description": "Ngăn bạn bị tụt đói.",
+
+    "module.bedGodMode.description": "Cho phép đi lại khi nằm trên giường. (Dành cho 1.9)",
+
+    "module.clip.description": "Cho phép đi xuyên block.",
+
+    "module.airJump.description": "Cho phép nhảy giữa không trung",
+
+    "module.airLadder.description": "Cho phép leo thang/dây leo mà không cần chạm vào.",
+
+    "module.animations.description": "Tùy chỉnh hiệu ứng che chắn kiếm.",
+
+    "module.antiAFK.description": "Ngăn bạn bị kick vì AFK.",
+
+    "module.antiBlind.description": "Hủy hiệu ứng mù.",
+
+    "module.antiBot.description": "Ngăn KillAura đánh phải bot anticheat.",
+
+    "module.antiFireball.description": "Tự động đẩy lùi quả cầu lửa tới gần bạn.",
+
+    "module.antiVanish.description": "Tự động phát hiện người chơi tàng hình.",
+
+    "module.atAllProvider.description": "Tự động tag mọi người trong server khi dùng '@a' trong chat.",
+
+    "module.attackEffects.description": "Hiển thị hiệu ứng khi tấn công",
+
+    "module.autoAccount.description": "Tự động đăng ký/đăng nhập & quản lý tài khoản mạnh mẽ nhất.",
+
+    "module.autoBreak.description": "Tự động đào block bạn đang nhìn.",
+
+    "module.autoFish.description": "Tự động câu cá khi dùng cần câu.",
+    "module.autoProjectile.description": "Tự động ném trứng/tuyết.",
+    "module.autoRespawn.description": "Tự động hồi sinh sau khi chết.",
+
+    "module.autoTool.description": "Tự động chọn công cụ đào block tốt nhất trong túi đồ.",
+
+    "module.autoWalk.description": "Tự động đi bộ.",
+
+    "module.avoidHazards.description": "Ngăn bạn đi vào block nguy hiểm.",
+
+    "module.blink.description": "Tạm ngưng gửi gói di chuyển.",
+
+    "module.bedProtectionESP.description": "Hiển thị vị trí cần đặt block để bảo vệ giường",
+
+    "module.blockESP.description": "Cho phép nhìn xuyên tường block đã chọn.",
+
+    "module.blockOverlay.description": "Tùy chỉnh viền hiển thị block.",
+
+    "module.blockWalk.description": "Đi trên block không phải full block.",
+
+    "module.breadcrumbs.description": "Để lại vệt sáng sau lưng bạn.",
+
+    "module.bufferSpeed.description": "Đi nhanh hơn trên slab và cầu thang.",
+
+    "module.antiVoid.description": "Tự động kéo bạn lên khi rơi khỏi map hoặc rơi vào void.",
+
+    "module.cameraClip.description": "Nhìn xuyên tường ở góc nhìn thứ ba.",
+
+    "module.chams.description": "Nhìn thấy mục tiêu xuyên block.",
+
+    "module.chestAura.description": "Tự động mở rương quanh bạn.",
+
+    "module.chestStealer.description": "Tự động lấy hết đồ trong rương.",
+
+    "module.civBreak.description": "Đào block lập tức.",
+
+    "module.clickGUI.description": "Mở menu ClickGUI.",
+
+    "module.componentOnHover.description": "Hiện hành động và giá trị chat khi di chuột.",
+
+    "module.consoleSpammer.description": "Spam lỗi lên console server.",
+
+    "module.damage.description": "Gây sát thương cho chính bạn.",
+
+    "module.derp.description": "Tạo hiệu ứng quay người loạn xạ.",
+
+    "module.eSP.description": "Nhìn thấy mục tiêu xuyên tường.",
+
+    "module.eagle.description": "Chế độ Eagle (FastBridge).",
+
+    "module.fakeLag.description": "Làm bạn lag phía server cho đến cú đánh đầu tiên.",
+
+    "module.fastBreak.description": "Đào block nhanh hơn.",
+
+    "module.fastClimb.description": "Leo thang và dây leo nhanh hơn.",
+
+    "module.fastPlace.description": "Đặt block nhanh hơn.",
+
+    "module.fastStairs.description": "Leo cầu thang nhanh hơn.",
+
+    "module.fastUse.description": "Sử dụng item nhanh hơn.",
+
+    "module.fly.description": "Bay ở chế độ sinh tồn.",
+
+    "module.forceUnicodeChat.description": "Gửi tin nhắn dạng unicode.",
+
+    "module.freeCam.description": "Di chuyển ngoài thân thể.",
+
+    "module.freeze.description": "Giữ bạn đứng yên giữa không trung.",
+
+    "module.fucker.description": "Phá block đã chọn quanh bạn. (IDNuker)",
+
+    "module.fullbright.description": "Tăng độ sáng cho thế giới xung quanh.",
+
+    "module.gameDetector.description": "Phát hiện nếu bạn đang trong game.",
+
+    "module.ghost.description": "Sau khi chết vẫn đi lại và tương tác.",
+
+    "module.ghostHand.description": "Tương tác với block đã chọn xuyên tường.",
+
+    "module.godMode.description": "GodMode khai thác lỗi AAC",
+
+    "module.hUD.description": "Bật/tắt HUD.",
+
+    "module.highJump.description": "Nhảy cao hơn.",
+
+    "module.iceSpeed.description": "Đi nhanh hơn trên băng.",
+
+    "module.inventoryCleaner.description": "Tự động vứt đồ rác.",
+
+    "module.inventoryMove.description": "Đi khi mở túi đồ.",
+
+    "module.itemESP.description": "Nhìn thấy item xuyên tường.",
+    "module.noClickDelay.description": "Bỏ delay khi đánh hụt ở 1.8",
+    "module.itemTeleport.description": "Nhặt item từ xa.",
+    "module.itemPhysics.description": "Item rơi có vật lý",
+    "module.keepAlive.description": "Cố gắng giữ bạn không chết.",
+
+    "module.keepContainer.description": "Mở lại container đã đóng ở bất cứ đâu. (Nhấn INSERT)",
+
+    "module.keyPearl.description": "Ném ender pearl từ hotbar bằng phím tắt.",
+
+    "module.kick.description": "Tự kick bản thân khỏi server.",
+
+    "module.ladderJump.description": "Nhảy cao khi chạm thang. (AAC)",
+
+    "module.liquidChat.description": "Chat với người dùng LiquidBounce khác.",
+
+    "module.jesus.description": "Đi trên mặt nước.",
+
+    "module.liquids.description": "Tương tác với chất lỏng.",
+
+    "module.longJump.description": "Nhảy xa hơn.",
+
+    "module.midClick.description": "Thêm bạn bằng cách chuột giữa vào họ.",
+
+    "module.moreCarry.description": "Đựng item ở slot chế tạo.",
+
+    "module.multiActions.description": "Vừa dùng item vừa đào block.",
+
+    "module.nameProtect.description": "Đổi tên người chơi ở client.",
+
+    "module.nameTags.description": "Thay đổi tỉ lệ nametag để luôn nhìn thấy.",
+
+    "module.noBob.description": "Tắt hiệu ứng rung màn hình khi di chuyển.",
+
+    "module.noBooks.description": "Chặn máy chủ mở sách (quảng cáo...)",
+
+    "module.noClip.description": "Tự do đi xuyên tường (cần block cát rơi lên đầu).",
+
+    "module.noFOV.description": "Tắt thay đổi FOV do tốc độ, hiệu ứng,...",
+
+    "module.noFall.description": "Chống sát thương khi rơi.",
+
+    "module.noFluid.description": "Bỏ qua chất lỏng như nước và lava.",
+
+    "module.noHurtCam.description": "Bỏ hiệu ứng rung khi bị đánh.",
+
+    "module.noJumpDelay.description": "Bỏ delay giữa các lần nhảy.",
+
+    "module.noPitchLimit.description": "Xoay đầu không giới hạn.",
+
+    "module.noRotate.description": "Ngăn máy chủ xoay đầu bạn.",
+
+    "module.noSlotSet.description": "Ngăn máy chủ đổi slot trên hotbar.",
+
+    "module.noScoreboard.description": "Tắt bảng điểm.",
+
+    "module.noSlow.description": "Bỏ chậm khi đi trên Soul Sand hoặc dùng item.",
+
+    "module.noSlowBreak.description": "Tự động chỉnh tốc độ đào khi có module tác động.",
+
+    "module.noSwing.description": "Tắt hiệu ứng vung tay khi đánh/mine.",
+
+    "module.noWeb.description": "Chống bị làm chậm bởi mạng nhện.",
+
+    "module.nuker.description": "Đào mọi block quanh bạn.",
+
+    "module.parkour.description": "Tự động nhảy khi gần mép block.",
+
+    "module.perfectHorseJump.description": "Tự động nhảy khi ngựa đạt lực tối đa.",
+
+    "module.phase.description": "Đi xuyên block.",
+
+    "module.pingSpoof.description": "Fake ping tới giá trị đã chọn.",
+
+    "module.plugins.description": "Xem plugin server sử dụng.",
+
+    "module.portalMenu.description": "Mở menu khi ở trong cổng dịch chuyển.",
+
+    "module.potionSaver.description": "Đóng băng hiệu ứng thuốc khi đứng yên.",
+    "module.potionSpoof.description": "Có hiệu ứng thuốc mà không cần uống.",
+    "module.projectiles.description": "Hiển thị quỹ đạo bắn của mũi tên.",
+    "module.prophuntESP.description": "Nhìn thấy player hóa trang trong PropHunt.",
+    "module.reach.description": "Tăng tầm đánh.",
+    "module.refill.description": "Tự động bổ sung item từ túi vào hotbar.",
+    "module.regen.description": "Hồi máu nhanh hơn.",
+    "module.resourcePackSpoof.description": "Chặn server ép tải resource pack.",
+    "module.reverseStep.description": "Đi xuống block nhanh hơn.",
+    "module.rotations.description": "Hiển thị hướng xoay đầu và thân server-side.",
+    "module.safeWalk.description": "Chống rơi như khi shift.",
+    "module.scaffold.description": "Tự động đặt block dưới chân.",
+    "module.serverCrasher.description": "Làm crash một số server.",
+    "module.skinDerp.description": "Làm nhấp nháy skin (cần skin nhiều lớp).",
+    "module.slimeJump.description": "Nhảy cao hơn trên block slime.",
+    "module.sneak.description": "Tự động shift.",
+    "module.spammer.description": "Spam chat với tin nhắn đã chọn.",
+    "module.speed.description": "Tăng tốc di chuyển.",
+    "module.sprint.description": "Tự động chạy nước rút.",
+    "module.step.description": "Bước lên block cao.",
+    "module.storageESP.description": "Nhìn thấy rương, ... xuyên tường.",
+    "module.strafe.description": "Di chuyển tự do giữa không trung.",
+    "module.tNTESP.description": "Nhìn thấy block TNT đã châm lửa xuyên tường.",
+    "module.teams.description": "Ngăn KillAura đánh đồng đội.",
+    "module.teleport.description": "Dịch chuyển quanh map.",
+    "module.timerRange.description": "Tăng tốc game để lợi thế trong combat.",
+    "module.timer.description": "Thay đổi tốc độ game.",
+    "module.tracers.description": "Vẽ đường chỉ tới mục tiêu quanh bạn.",
+    "module.trueSight.description": "Nhìn thấy thực thể tàng hình và barrier.",
+    "module.vehicleOneHit.description": "Phá xe chỉ bằng 1 hit.",
+    "module.spider.description": "Leo tường như nhện.",
+    "module.waterSpeed.description": "Bơi nhanh hơn.",
+    "module.xRay.description": "Nhìn quặng xuyên tường.",
+    "module.zoot.description": "Xóa mọi hiệu ứng xấu/lửa.",
+    "module.antiExploit": "Ngăn server crash bạn.",
+    "module.keepSprint.description": "Giữ tốc độ chạy sau khi tấn công.",
+    "module.antiBounce.description": "Chống nảy trên block slime.",
+    "module.disabler.description": "Vô hiệu hóa server hoặc anticheat.",
+    "module.overrideRaycast.description": "Ghi đè raycast xoay đầu bằng raycast server."
+  }
+}

@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31d992d0-5665-4eac-85e6-fb6b9cc752fa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SkidBounce.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkidBounce.ipr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SkidBounce.iws" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/git.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkidBounce.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/SkidBounce.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SkidBounce.iws" beforeDir="false" afterPath="$PROJECT_DIR$/SkidBounce.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/ccbluex/liquidbounce/LiquidBounce.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ccbluex/liquidbounce/LiquidBounce.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Backtrack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Backtrack.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +67,12 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2yUBYe6DYMZZcN0zfdr6i38yqeV" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -90,9 +91,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Minecraft Client">

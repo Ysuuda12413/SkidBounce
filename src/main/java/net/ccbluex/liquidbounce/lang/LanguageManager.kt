@@ -30,7 +30,8 @@ object LanguageManager : MinecraftInstance() {
         "zh_CN",
         "zh_TW",
         "bg_BG",
-        "ru_RU"
+        "ru_RU",
+        "vi_VN"
     )
     private val languageMap = mutableMapOf<String, Language>()
 

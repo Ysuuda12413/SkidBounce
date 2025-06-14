@@ -74,7 +74,7 @@ object Velocity : Module("Velocity", Category.COMBAT) {
     val reverseStrength by FloatValue("Reverse-Strength", 1f, 0.02f..1f) { mode == "Custom" && reverse }
 
     val spoofDelay by IntValue("SpoofDelay", 500, 0..5000) { mode == "Delayed" }
-
+    //Grim
     val grimAlways by BooleanValue("Grim-Always", false) { mode == "Grim" }
     val grimOnlyAir by BooleanValue("Grim-OnlyBreakAir", true) { mode == "Grim" }
     val grimWorld by BooleanValue("Grim-BreakOnWorld", false) { mode == "Grim" }
@@ -83,7 +83,12 @@ object Velocity : Module("Velocity", Category.COMBAT) {
     val grimTimerMode by ListValue("Grim-TimerMode", arrayOf("New", "Old", "Off"), "New") { mode == "Grim" && grimPacket != "None" && grimPacket != "Tick" }
     val grimTimerTicks by IntValue("Grim-TimerTicks", 20, 1..100) { mode == "Grim" && grimPacket != "None" && grimPacket != "Tick" && grimTimerMode != "Off" }
     val grimTimerSpeed by FloatValue("Grim-TimerSpeed", 0.8f, 0f..1f) { mode == "Grim" && grimPacket != "None" && grimPacket != "Tick" && grimTimerMode != "Off" }
-
+    val grimVerticalMode by ListValue("GrimVerticalMode", arrayOf("Reduce", "1.17", "Vertical"), "Reduce") { mode == "GrimVertical" }
+    val smartVelo by BooleanValue("SmartVelo", true) { mode == "GrimVertical" && grimVerticalMode == "Vertical" }
+    val sendC0FValue by BooleanValue("C0F", false) { mode == "GrimVertical" && grimVerticalMode == "Vertical" }
+    val c0fPacketAmount by IntValue("C0FPacketAmount", 0, 1..40) { mode == "GrimVertical" && grimVerticalMode == "Vertical" && sendC0FValue }
+    val callEvent by BooleanValue("CallEvent", true) { mode == "GrimVertical" && grimVerticalMode == "Vertical" }
+    val via by BooleanValue("Via", true) { mode == "GrimVertical" && (grimVerticalMode == "Vertical" || grimVerticalMode == "Reduce") }
     val aacv4MotionReducer by FloatValue("AACv4MotionReducer", 0.62f, 0f..1f) { mode == "AACv4" }
 
     val aacHorizontal by FloatValue("AAC-HorizontalMultiplier", 0f, 0f..1f) { mode == "AAC" }
